@@ -7,8 +7,8 @@ from matching.spotify import best_match
 log=logging.getLogger(__name__)
 
 class Pipeline:
-    def __init__(self, people, youtube, spotify, telegram, state, health, dry_run=False):
-        self.people=people; self.youtube=youtube; self.spotify=spotify; self.telegram=telegram; self.state=state; self.health=health; self.dry_run=dry_run
+    def __init__(self, people, youtube, spotify, telegram, health_telegram, state, health, dry_run=False):
+        self.people=people; self.youtube=youtube; self.spotify=spotify; self.telegram=telegram; self.health_telegram=health_telegram; self.state=state; self.health=health; self.dry_run=dry_run
 
     def run(self):
         now=datetime.now(timezone.utc); collected={}; searched_ok=set()
@@ -84,10 +84,10 @@ class Pipeline:
             self.health.service('telegram','unchecked')
         self.state.prune(); self.state.save(); self.health.service('state','healthy'); self.health.finalize()
         transition=self.health.transition(); self.health.save()
-        if transition and self.telegram and not self.dry_run:
+        if transition and self.health_telegram and not self.dry_run:
             old,new=transition
             try:
                 emoji='✅' if new=='healthy' else '⚠️'
-                self.telegram.send(f'{emoji} Media monitor health: {old} → {new}')
+                self.health_telegram.send(f'{emoji} Media monitor health: {old} → {new}')
             except Exception: log.exception('Health transition alert failed')
         return 1 if self.health.current['overall']=='down' else 0
