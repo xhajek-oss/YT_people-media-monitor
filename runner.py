@@ -11,8 +11,18 @@ from monitoring.health import HealthStore
 
 
 def main() -> int:
-    ap=argparse.ArgumentParser(); ap.add_argument('--mode',choices=['production','debug'],default='production'); args=ap.parse_args()
+    ap=argparse.ArgumentParser(); ap.add_argument('--mode',choices=['production','debug','health-test'],default='production'); args=ap.parse_args()
     logging.basicConfig(level=logging.INFO,format='%(asctime)s %(levelname)s %(name)s: %(message)s')
+
+    if args.mode == 'health-test':
+        required=['TELEGRAM_BOT_TOKEN','TELEGRAM_HEALTH_CHAT_ID']
+        missing=[x for x in required if not os.getenv(x)]
+        if missing: raise SystemExit('Missing required env: '+', '.join(missing))
+        http=HttpClient()
+        health_tg=TelegramClient(os.environ['TELEGRAM_BOT_TOKEN'],os.environ['TELEGRAM_HEALTH_CHAT_ID'],http)
+        health_tg.send('🧪 YT People Media Monitor\n\nHealth chat test OK.\nTento chat je určen pouze pro health/down/recovery alerty.')
+        return 0
+
     required=['YOUTUBE_API_KEY','TELEGRAM_BOT_TOKEN','TELEGRAM_CHAT_ID','TELEGRAM_HEALTH_CHAT_ID']
     missing=[x for x in required if not os.getenv(x)]
     if missing: raise SystemExit('Missing required env: '+', '.join(missing))
