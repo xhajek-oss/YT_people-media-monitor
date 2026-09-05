@@ -1,1 +1,18 @@
-{"version":1,"people":{},"items":{}}
+{
+  "items": {},
+  "people": {
+    "arpad-soltesz": {
+      "initialized": true,
+      "last_successful_search_at": "2026-09-05T20:32:31.212511+00:00"
+    },
+    "david-svoboda": {
+      "initialized": true,
+      "last_successful_search_at": "2026-09-05T20:32:31.212511+00:00"
+    },
+    "petros-michopulos": {
+      "initialized": true,
+      "last_successful_search_at": "2026-09-05T20:32:31.212511+00:00"
+    }
+  },
+  "version": 1
+}

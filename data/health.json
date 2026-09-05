@@ -1,1 +1,39 @@
-{}
+{
+  "last_run_at": "2026-09-05T20:32:31.212496+00:00",
+  "overall": "healthy",
+  "people": {
+    "arpad-soltesz": {
+      "last_search_at": "2026-09-05T20:32:31.212511+00:00",
+      "raw_results": 1,
+      "status": "healthy"
+    },
+    "david-svoboda": {
+      "last_search_at": "2026-09-05T20:32:31.212511+00:00",
+      "raw_results": 0,
+      "status": "healthy"
+    },
+    "petros-michopulos": {
+      "last_search_at": "2026-09-05T20:32:31.212511+00:00",
+      "raw_results": 1,
+      "status": "healthy"
+    }
+  },
+  "services": {
+    "spotify": {
+      "message": "",
+      "status": "unchecked"
+    },
+    "state": {
+      "message": "",
+      "status": "healthy"
+    },
+    "telegram": {
+      "message": "",
+      "status": "unchecked"
+    },
+    "youtube": {
+      "message": "",
+      "status": "healthy"
+    }
+  }
+}
