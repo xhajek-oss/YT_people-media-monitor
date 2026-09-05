@@ -4,6 +4,15 @@ on:
   schedule:
     - cron: '23 * * * *'
   workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Run mode'
+        required: true
+        default: 'production'
+        type: choice
+        options:
+          - production
+          - health-test
 
 permissions:
   contents: write
@@ -27,7 +36,14 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Run tests
         run: python -m pytest -q
+      - name: Run health chat test
+        if: github.event_name == 'workflow_dispatch' && inputs.mode == 'health-test'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_HEALTH_CHAT_ID: ${{ secrets.TELEGRAM_HEALTH_CHAT_ID }}
+        run: python runner.py --mode health-test
       - name: Run production monitor
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.mode == 'production')
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -37,7 +53,7 @@ jobs:
           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
         run: python runner.py --mode production
       - name: Persist runtime state
-        if: always()
+        if: always() && (github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.mode == 'production'))
         run: |
           if git diff --quiet -- data/state.json data/health.json; then
             exit 0
