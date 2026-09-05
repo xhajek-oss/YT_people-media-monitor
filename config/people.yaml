@@ -1,0 +1,51 @@
+defaults:
+  min_duration_seconds: 300
+
+people:
+  - id: petros-michopulos
+    enabled: true
+    name: "Petros Michopulos"
+    aliases: ["Petros Michopulos", "Michopulos"]
+    youtube:
+      queries: ["Petros Michopulos"]
+      exclude_channel_ids: ["UCDlviqJwAFEmcDKTivZIm3g"]
+    identity:
+      mode: normal
+      positive_terms: ["politika", "komentátor", "podcast", "rozhovor", "insider", "kecy a politika"]
+      negative_terms: []
+      min_score: 3
+      uncertain_min_score: 1
+    spotify:
+      enabled: true
+
+  - id: david-svoboda
+    enabled: true
+    name: "David Svoboda"
+    aliases: ["David Svoboda"]
+    youtube:
+      queries: ["David Svoboda"]
+      exclude_channel_ids: []
+    identity:
+      mode: strict
+      positive_terms: ["ukrajina", "ukrajinista", "historik", "rusko", "kyjev", "ukrajinský", "východní evropa"]
+      negative_terms: ["moderní pětiboj", "pětibojař", "olympijský vítěz", "olympiáda", "londýn 2012", "sportovec"]
+      min_score: 6
+      uncertain_min_score: 2
+    spotify:
+      enabled: true
+
+  - id: arpad-soltesz
+    enabled: true
+    name: "Arpád Soltész"
+    aliases: ["Arpád Soltész", "Arpad Soltesz"]
+    youtube:
+      queries: ["Arpád Soltész"]
+      exclude_channel_ids: ["UC5zY50gn7Z0-yGSt74dRZXw"]
+    identity:
+      mode: normal
+      positive_terms: ["rozhovor", "politika", "novinár", "novinář", "komentár", "komentář"]
+      negative_terms: []
+      min_score: 3
+      uncertain_min_score: 1
+    spotify:
+      enabled: true
