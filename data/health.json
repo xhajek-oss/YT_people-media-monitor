@@ -1,19 +1,19 @@
 {
-  "last_run_at": "2026-09-06T01:00:56.789599+00:00",
+  "last_run_at": "2026-09-06T04:00:54.298601+00:00",
   "overall": "healthy",
   "people": {
     "arpad-soltesz": {
-      "last_search_at": "2026-09-06T01:00:56.789613+00:00",
+      "last_search_at": "2026-09-06T04:00:54.298614+00:00",
       "raw_results": 0,
       "status": "healthy"
     },
     "david-svoboda": {
-      "last_search_at": "2026-09-06T01:00:56.789613+00:00",
+      "last_search_at": "2026-09-06T04:00:54.298614+00:00",
       "raw_results": 0,
       "status": "healthy"
     },
     "petros-michopulos": {
-      "last_search_at": "2026-09-06T01:00:56.789613+00:00",
+      "last_search_at": "2026-09-06T04:00:54.298614+00:00",
       "raw_results": 0,
       "status": "healthy"
     }
