@@ -65,3 +65,19 @@ people:
       uncertain_min_score: 1
     spotify:
       enabled: true
+
+  - id: otakar-foltyn
+    enabled: true
+    name: "Otakar Foltýn"
+    aliases: ["Otakar Foltýn", "Otakar Foltyn"]
+    youtube:
+      queries: ["Otakar Foltýn"]
+      exclude_channel_ids: []
+    identity:
+      mode: normal
+      positive_terms: ["bezpečnost", "armáda", "vojenská policie", "strategická komunikace", "dezinformace", "hybridní hrozby", "vláda", "generál", "ukrajina", "rusko", "rozhovor", "podcast"]
+      negative_terms: []
+      min_score: 3
+      uncertain_min_score: 1
+    spotify:
+      enabled: true
