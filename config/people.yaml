@@ -49,3 +49,19 @@ people:
       uncertain_min_score: 1
     spotify:
       enabled: true
+
+  - id: mojmir-hampl
+    enabled: true
+    name: "Mojmír Hampl"
+    aliases: ["Mojmír Hampl", "Mojmir Hampl"]
+    youtube:
+      queries: ["Mojmír Hampl"]
+      exclude_channel_ids: []
+    identity:
+      mode: normal
+      positive_terms: ["ekonom", "ekonomika", "rozpočet", "inflace", "měnová politika", "čnb", "národní rozpočtová rada", "veřejné finance", "rozhovor", "podcast"]
+      negative_terms: []
+      min_score: 3
+      uncertain_min_score: 1
+    spotify:
+      enabled: true
