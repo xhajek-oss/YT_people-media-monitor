@@ -1,29 +1,29 @@
 {
-  "last_run_at": "2026-09-08T13:01:04.344102+00:00",
+  "last_run_at": "2026-09-08T16:01:07.046408+00:00",
   "overall": "healthy",
   "people": {
     "arpad-soltesz": {
-      "last_search_at": "2026-09-08T13:01:04.344123+00:00",
+      "last_search_at": "2026-09-08T16:01:07.046433+00:00",
       "raw_results": 0,
       "status": "healthy"
     },
     "david-svoboda": {
-      "last_search_at": "2026-09-08T13:01:04.344123+00:00",
+      "last_search_at": "2026-09-08T16:01:07.046433+00:00",
       "raw_results": 1,
       "status": "healthy"
     },
     "mojmir-hampl": {
-      "last_search_at": "2026-09-08T13:01:04.344123+00:00",
+      "last_search_at": "2026-09-08T16:01:07.046433+00:00",
       "raw_results": 0,
       "status": "healthy"
     },
     "otakar-foltyn": {
-      "last_search_at": "2026-09-08T13:01:04.344123+00:00",
+      "last_search_at": "2026-09-08T16:01:07.046433+00:00",
       "raw_results": 0,
       "status": "healthy"
     },
     "petros-michopulos": {
-      "last_search_at": "2026-09-08T13:01:04.344123+00:00",
+      "last_search_at": "2026-09-08T16:01:07.046433+00:00",
       "raw_results": 0,
       "status": "healthy"
     }
