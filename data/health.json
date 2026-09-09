@@ -1,29 +1,29 @@
 {
-  "last_run_at": "2026-09-09T07:01:00.295485+00:00",
+  "last_run_at": "2026-09-09T10:01:00.805056+00:00",
   "overall": "healthy",
   "people": {
     "arpad-soltesz": {
-      "last_search_at": "2026-09-09T07:01:00.295499+00:00",
+      "last_search_at": "2026-09-09T10:01:00.805076+00:00",
       "raw_results": 0,
       "status": "healthy"
     },
     "david-svoboda": {
-      "last_search_at": "2026-09-09T07:01:00.295499+00:00",
-      "raw_results": 0,
+      "last_search_at": "2026-09-09T10:01:00.805076+00:00",
+      "raw_results": 1,
       "status": "healthy"
     },
     "mojmir-hampl": {
-      "last_search_at": "2026-09-09T07:01:00.295499+00:00",
+      "last_search_at": "2026-09-09T10:01:00.805076+00:00",
       "raw_results": 0,
       "status": "healthy"
     },
     "otakar-foltyn": {
-      "last_search_at": "2026-09-09T07:01:00.295499+00:00",
+      "last_search_at": "2026-09-09T10:01:00.805076+00:00",
       "raw_results": 0,
       "status": "healthy"
     },
     "petros-michopulos": {
-      "last_search_at": "2026-09-09T07:01:00.295499+00:00",
+      "last_search_at": "2026-09-09T10:01:00.805076+00:00",
       "raw_results": 0,
       "status": "healthy"
     }
@@ -31,7 +31,7 @@
   "services": {
     "spotify": {
       "message": "",
-      "status": "unchecked"
+      "status": "healthy"
     },
     "state": {
       "message": "",
@@ -39,7 +39,7 @@
     },
     "telegram": {
       "message": "",
-      "status": "unchecked"
+      "status": "healthy"
     },
     "youtube": {
       "message": "",
