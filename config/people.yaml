@@ -92,7 +92,7 @@ people:
     identity:
       mode: normal
       positive_terms: ["politika", "expremiér", "premiér", "ods", "energetika", "ekonomika", "rozhovor", "podcast"]
-      negative_terms: []
+      negative_terms: ["zlámaný topol", "zlamany topol"]
       min_score: 3
       uncertain_min_score: 1
     spotify:
