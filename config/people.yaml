@@ -97,3 +97,19 @@ people:
       uncertain_min_score: 1
     spotify:
       enabled: true
+
+  - id: stepan-krecek
+    enabled: true
+    name: "Štěpán Křeček"
+    aliases: ["Štěpán Křeček", "Stepan Krecek"]
+    youtube:
+      queries: ["Štěpán Křeček"]
+      exclude_channel_ids: ["UCKn1WKJjRNmGKUOdbymvPeA"]
+    identity:
+      mode: normal
+      positive_terms: ["ekonom", "hlavní ekonom", "bh securities", "ekonomika", "inflace", "úrokové sazby", "investice", "trhy", "rozpočet", "rozhovor", "podcast"]
+      negative_terms: []
+      min_score: 3
+      uncertain_min_score: 1
+    spotify:
+      enabled: true
