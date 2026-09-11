@@ -9,6 +9,18 @@
       "reason": "too_short",
       "status": "rejected"
     },
+    "youtube:91ySCFIHY9M": {
+      "delivered_at": "2026-09-11T13:30:52.045728+00:00",
+      "duration_seconds": 2263,
+      "first_seen_at": "2026-09-11T13:30:48.198334+00:00",
+      "person_ids": [
+        "petros-michopulos"
+      ],
+      "selected_source": "youtube",
+      "selected_url": "https://www.youtube.com/watch?v=91ySCFIHY9M",
+      "status": "delivered",
+      "youtube_url": "https://www.youtube.com/watch?v=91ySCFIHY9M"
+    },
     "youtube:UWsjvfCsmvs": {
       "delivered_at": "2026-09-09T10:01:03.658295+00:00",
       "duration_seconds": 1536,
@@ -20,6 +32,15 @@
       "selected_url": "https://www.youtube.com/watch?v=UWsjvfCsmvs",
       "status": "delivered",
       "youtube_url": "https://www.youtube.com/watch?v=UWsjvfCsmvs"
+    },
+    "youtube:x8ylq9CMWvY": {
+      "duration_seconds": 59,
+      "first_seen_at": "2026-09-11T13:30:48.198334+00:00",
+      "person_ids": [
+        "petros-michopulos"
+      ],
+      "reason": "too_short",
+      "status": "rejected"
     },
     "youtube:zGyUUTx-1IY": {
       "duration_seconds": 48,
@@ -34,31 +55,31 @@
   "people": {
     "arpad-soltesz": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-11T09:06:59.450867+00:00"
+      "last_successful_search_at": "2026-09-11T13:30:48.198334+00:00"
     },
     "david-svoboda": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-11T09:06:59.450867+00:00"
+      "last_successful_search_at": "2026-09-11T13:30:48.198334+00:00"
     },
     "mirek-topolanek": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-11T09:06:59.450867+00:00"
+      "last_successful_search_at": "2026-09-11T13:30:48.198334+00:00"
     },
     "mojmir-hampl": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-11T09:06:59.450867+00:00"
+      "last_successful_search_at": "2026-09-11T13:30:48.198334+00:00"
     },
     "otakar-foltyn": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-11T09:06:59.450867+00:00"
+      "last_successful_search_at": "2026-09-11T13:30:48.198334+00:00"
     },
     "petros-michopulos": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-11T09:06:59.450867+00:00"
+      "last_successful_search_at": "2026-09-11T13:30:48.198334+00:00"
     },
     "stepan-krecek": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-11T09:06:59.450867+00:00"
+      "last_successful_search_at": "2026-09-11T13:30:48.198334+00:00"
     }
   },
   "version": 1
