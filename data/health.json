@@ -1,39 +1,39 @@
 {
-  "last_run_at": "2026-09-11T13:30:48.198318+00:00",
+  "last_run_at": "2026-09-11T17:11:39.004059+00:00",
   "overall": "healthy",
   "people": {
     "arpad-soltesz": {
-      "last_search_at": "2026-09-11T13:30:48.198334+00:00",
+      "last_search_at": "2026-09-11T17:11:39.004109+00:00",
       "raw_results": 1,
       "status": "healthy"
     },
     "david-svoboda": {
-      "last_search_at": "2026-09-11T13:30:48.198334+00:00",
+      "last_search_at": "2026-09-11T17:11:39.004109+00:00",
       "raw_results": 0,
       "status": "healthy"
     },
     "mirek-topolanek": {
-      "last_search_at": "2026-09-11T13:30:48.198334+00:00",
-      "raw_results": 0,
+      "last_search_at": "2026-09-11T17:11:39.004109+00:00",
+      "raw_results": 2,
       "status": "healthy"
     },
     "mojmir-hampl": {
-      "last_search_at": "2026-09-11T13:30:48.198334+00:00",
+      "last_search_at": "2026-09-11T17:11:39.004109+00:00",
       "raw_results": 0,
       "status": "healthy"
     },
     "otakar-foltyn": {
-      "last_search_at": "2026-09-11T13:30:48.198334+00:00",
+      "last_search_at": "2026-09-11T17:11:39.004109+00:00",
       "raw_results": 1,
       "status": "healthy"
     },
     "petros-michopulos": {
-      "last_search_at": "2026-09-11T13:30:48.198334+00:00",
+      "last_search_at": "2026-09-11T17:11:39.004109+00:00",
       "raw_results": 2,
       "status": "healthy"
     },
     "stepan-krecek": {
-      "last_search_at": "2026-09-11T13:30:48.198334+00:00",
+      "last_search_at": "2026-09-11T17:11:39.004109+00:00",
       "raw_results": 0,
       "status": "healthy"
     }
@@ -41,7 +41,7 @@
   "services": {
     "spotify": {
       "message": "",
-      "status": "healthy"
+      "status": "unchecked"
     },
     "state": {
       "message": "",
@@ -49,7 +49,7 @@
     },
     "telegram": {
       "message": "",
-      "status": "healthy"
+      "status": "unchecked"
     },
     "youtube": {
       "message": "",
