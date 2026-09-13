@@ -42,6 +42,24 @@
       "status": "delivered",
       "youtube_url": "https://www.youtube.com/watch?v=UWsjvfCsmvs"
     },
+    "youtube:ndyyjsCmZxM": {
+      "duration_seconds": 45,
+      "first_seen_at": "2026-09-13T17:37:52.264964+00:00",
+      "person_ids": [
+        "david-svoboda"
+      ],
+      "reason": "too_short",
+      "status": "rejected"
+    },
+    "youtube:uriHrgEQ7UQ": {
+      "duration_seconds": 49,
+      "first_seen_at": "2026-09-13T17:37:52.264964+00:00",
+      "person_ids": [
+        "petros-michopulos"
+      ],
+      "reason": "too_short",
+      "status": "rejected"
+    },
     "youtube:x8ylq9CMWvY": {
       "duration_seconds": 59,
       "first_seen_at": "2026-09-11T13:30:48.198334+00:00",
@@ -50,6 +68,20 @@
       ],
       "reason": "too_short",
       "status": "rejected"
+    },
+    "youtube:y7UdpNKE_I0": {
+      "delivered_at": "2026-09-13T17:37:55.785091+00:00",
+      "duration_seconds": 2076,
+      "first_seen_at": "2026-09-13T17:37:52.264964+00:00",
+      "person_ids": [
+        "otakar-foltyn"
+      ],
+      "selected_source": "spotify",
+      "selected_url": "https://open.spotify.com/episode/6eY1Yy7FzKDsIFgIZuybUM",
+      "spotify_episode_id": "6eY1Yy7FzKDsIFgIZuybUM",
+      "spotify_score": 0.903,
+      "status": "delivered",
+      "youtube_url": "https://www.youtube.com/watch?v=y7UdpNKE_I0"
     },
     "youtube:zGyUUTx-1IY": {
       "duration_seconds": 48,
@@ -64,31 +96,31 @@
   "people": {
     "arpad-soltesz": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-13T14:32:05.248452+00:00"
+      "last_successful_search_at": "2026-09-13T17:37:52.264964+00:00"
     },
     "david-svoboda": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-13T14:32:05.248452+00:00"
+      "last_successful_search_at": "2026-09-13T17:37:52.264964+00:00"
     },
     "mirek-topolanek": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-13T14:32:05.248452+00:00"
+      "last_successful_search_at": "2026-09-13T17:37:52.264964+00:00"
     },
     "mojmir-hampl": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-13T14:32:05.248452+00:00"
+      "last_successful_search_at": "2026-09-13T17:37:52.264964+00:00"
     },
     "otakar-foltyn": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-13T14:32:05.248452+00:00"
+      "last_successful_search_at": "2026-09-13T17:37:52.264964+00:00"
     },
     "petros-michopulos": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-13T14:32:05.248452+00:00"
+      "last_successful_search_at": "2026-09-13T17:37:52.264964+00:00"
     },
     "stepan-krecek": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-13T14:32:05.248452+00:00"
+      "last_successful_search_at": "2026-09-13T17:37:52.264964+00:00"
     }
   },
   "version": 1
