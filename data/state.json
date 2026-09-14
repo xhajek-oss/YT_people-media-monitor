@@ -42,6 +42,18 @@
       "status": "delivered",
       "youtube_url": "https://www.youtube.com/watch?v=UWsjvfCsmvs"
     },
+    "youtube:hcj8tDBbRvc": {
+      "delivered_at": "2026-09-14T13:58:26.389249+00:00",
+      "duration_seconds": 1536,
+      "first_seen_at": "2026-09-14T13:58:22.924372+00:00",
+      "person_ids": [
+        "david-svoboda"
+      ],
+      "selected_source": "youtube",
+      "selected_url": "https://www.youtube.com/watch?v=hcj8tDBbRvc",
+      "status": "delivered",
+      "youtube_url": "https://www.youtube.com/watch?v=hcj8tDBbRvc"
+    },
     "youtube:ndyyjsCmZxM": {
       "duration_seconds": 45,
       "first_seen_at": "2026-09-13T17:37:52.264964+00:00",
@@ -96,31 +108,31 @@
   "people": {
     "arpad-soltesz": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-14T07:03:24.960410+00:00"
+      "last_successful_search_at": "2026-09-14T13:58:22.924372+00:00"
     },
     "david-svoboda": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-14T07:03:24.960410+00:00"
+      "last_successful_search_at": "2026-09-14T13:58:22.924372+00:00"
     },
     "mirek-topolanek": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-14T07:03:24.960410+00:00"
+      "last_successful_search_at": "2026-09-14T13:58:22.924372+00:00"
     },
     "mojmir-hampl": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-14T07:03:24.960410+00:00"
+      "last_successful_search_at": "2026-09-14T13:58:22.924372+00:00"
     },
     "otakar-foltyn": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-14T07:03:24.960410+00:00"
+      "last_successful_search_at": "2026-09-14T13:58:22.924372+00:00"
     },
     "petros-michopulos": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-14T07:03:24.960410+00:00"
+      "last_successful_search_at": "2026-09-14T13:58:22.924372+00:00"
     },
     "stepan-krecek": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-14T07:03:24.960410+00:00"
+      "last_successful_search_at": "2026-09-14T13:58:22.924372+00:00"
     }
   },
   "version": 1
