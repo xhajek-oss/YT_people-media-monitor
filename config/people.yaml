@@ -24,7 +24,8 @@ people:
     aliases: ["David Svoboda"]
     youtube:
       queries: ["David Svoboda"]
-      exclude_channel_ids: ["UCrQptfsVBv6DM-drcjD4pr3Q"]
+      exclude_channel_ids: []
+      exclude_channel_handles: ["@muzeumpametixxstoleti"]
     identity:
       mode: strict
       positive_terms: ["ukrajina", "ukrajinista", "historik", "rusko", "kyjev", "ukrajinský", "východní evropa"]

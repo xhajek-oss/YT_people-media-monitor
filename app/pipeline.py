@@ -17,12 +17,15 @@ class Pipeline:
             published_after=(datetime.fromisoformat(last.replace('Z','+00:00'))-timedelta(hours=4)) if last else (now-timedelta(hours=48))
             raw=[]
             try:
+                excluded_channel_ids=set(p.exclude_channel_ids)
+                for handle in p.exclude_channel_handles:
+                    excluded_channel_ids.add(self.youtube.resolve_channel_handle(handle))
                 for q in p.queries[:1]: raw.extend(self.youtube.search(q,published_after))
                 self.health.person(p.id,'healthy',raw_results=len(raw),last_search_at=now.isoformat())
             except Exception as e:
-                log.exception('YouTube search failed for %s',p.id); self.health.person(p.id,'down',error=str(e)); self.health.service('youtube','down',str(e)); continue
+                log.exception('YouTube search/filter setup failed for %s',p.id); self.health.person(p.id,'down',error=str(e)); self.health.service('youtube','down',str(e)); continue
             for v in raw:
-                if v.channel_id in p.exclude_channel_ids: continue
+                if v.channel_id in excluded_channel_ids: continue
                 ident=evaluate_identity(p,v)
                 if ident.decision!='confirmed':
                     continue

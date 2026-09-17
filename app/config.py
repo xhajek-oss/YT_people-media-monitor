@@ -19,6 +19,7 @@ def load_people(path: str | Path = 'config/people.yaml') -> list[PersonProfile]:
             aliases=tuple(item.get('aliases') or [item['name']]),
             queries=tuple(yt.get('queries') or [item['name']]),
             exclude_channel_ids=frozenset(yt.get('exclude_channel_ids', [])),
+            exclude_channel_handles=frozenset(yt.get('exclude_channel_handles', [])),
             min_duration_seconds=int(yt.get('min_duration_seconds', defaults.get('min_duration_seconds', 300))),
             spotify_enabled=bool(item.get('spotify', {}).get('enabled', True)),
             identity=IdentityConfig(

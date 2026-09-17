@@ -21,6 +21,7 @@ class PersonProfile:
     queries: tuple[str, ...]
     exclude_channel_ids: frozenset[str]
     identity: IdentityConfig
+    exclude_channel_handles: frozenset[str] = frozenset()
     min_duration_seconds: int = 300
     spotify_enabled: bool = True
 

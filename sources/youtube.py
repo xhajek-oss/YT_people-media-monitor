@@ -6,8 +6,23 @@ from app.models import VideoCandidate
 class YouTubeClient:
     SEARCH='https://www.googleapis.com/youtube/v3/search'
     VIDEOS='https://www.googleapis.com/youtube/v3/videos'
+    CHANNELS='https://www.googleapis.com/youtube/v3/channels'
     def __init__(self, api_key: str, http: HttpClient):
-        self.api_key=api_key; self.http=http
+        self.api_key=api_key; self.http=http; self._handle_cache={}
+
+    def resolve_channel_handle(self, handle: str) -> str:
+        handle=handle.strip()
+        if not handle.startswith('@'):
+            handle='@'+handle
+        if handle in self._handle_cache:
+            return self._handle_cache[handle]
+        data=self.http.request('GET',self.CHANNELS,params={'part':'snippet','forHandle':handle,'maxResults':1,'key':self.api_key}).json()
+        items=data.get('items',[])
+        if not items:
+            raise ValueError(f'YouTube channel handle not found or unavailable: {handle}')
+        channel_id=items[0]['id']
+        self._handle_cache[handle]=channel_id
+        return channel_id
 
     def search(self, query: str, published_after: datetime, max_results: int = 20) -> list[VideoCandidate]:
         params={'part':'snippet','type':'video','order':'date','q':query,'publishedAfter':published_after.isoformat().replace('+00:00','Z'),'maxResults':max_results,'key':self.api_key}
