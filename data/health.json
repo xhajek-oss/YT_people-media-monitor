@@ -1,39 +1,39 @@
 {
-  "last_run_at": "2026-09-19T13:14:51.455121+00:00",
+  "last_run_at": "2026-09-19T16:30:15.670891+00:00",
   "overall": "healthy",
   "people": {
     "arpad-soltesz": {
-      "last_search_at": "2026-09-19T13:14:51.455134+00:00",
+      "last_search_at": "2026-09-19T16:30:15.670909+00:00",
       "raw_results": 1,
       "status": "healthy"
     },
     "david-svoboda": {
-      "last_search_at": "2026-09-19T13:14:51.455134+00:00",
-      "raw_results": 1,
+      "last_search_at": "2026-09-19T16:30:15.670909+00:00",
+      "raw_results": 0,
       "status": "healthy"
     },
     "mirek-topolanek": {
-      "last_search_at": "2026-09-19T13:14:51.455134+00:00",
+      "last_search_at": "2026-09-19T16:30:15.670909+00:00",
       "raw_results": 0,
       "status": "healthy"
     },
     "mojmir-hampl": {
-      "last_search_at": "2026-09-19T13:14:51.455134+00:00",
+      "last_search_at": "2026-09-19T16:30:15.670909+00:00",
       "raw_results": 0,
       "status": "healthy"
     },
     "otakar-foltyn": {
-      "last_search_at": "2026-09-19T13:14:51.455134+00:00",
+      "last_search_at": "2026-09-19T16:30:15.670909+00:00",
       "raw_results": 0,
       "status": "healthy"
     },
     "petros-michopulos": {
-      "last_search_at": "2026-09-19T13:14:51.455134+00:00",
+      "last_search_at": "2026-09-19T16:30:15.670909+00:00",
       "raw_results": 0,
       "status": "healthy"
     },
     "stepan-krecek": {
-      "last_search_at": "2026-09-19T13:14:51.455134+00:00",
+      "last_search_at": "2026-09-19T16:30:15.670909+00:00",
       "raw_results": 0,
       "status": "healthy"
     }
