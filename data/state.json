@@ -39,6 +39,15 @@
       "reason": "too_short",
       "status": "rejected"
     },
+    "youtube:Ms0C2Md8y-A": {
+      "duration_seconds": 35,
+      "first_seen_at": "2026-09-21T18:48:47.110109+00:00",
+      "person_ids": [
+        "david-svoboda"
+      ],
+      "reason": "too_short",
+      "status": "rejected"
+    },
     "youtube:NzkSdymqSzQ": {
       "delivered_at": "2026-09-17T18:41:32.231206+00:00",
       "duration_seconds": 1536,
@@ -185,31 +194,31 @@
   "people": {
     "arpad-soltesz": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-21T13:18:54.315972+00:00"
+      "last_successful_search_at": "2026-09-21T18:48:47.110109+00:00"
     },
     "david-svoboda": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-21T13:18:54.315972+00:00"
+      "last_successful_search_at": "2026-09-21T18:48:47.110109+00:00"
     },
     "mirek-topolanek": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-21T13:18:54.315972+00:00"
+      "last_successful_search_at": "2026-09-21T18:48:47.110109+00:00"
     },
     "mojmir-hampl": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-21T13:18:54.315972+00:00"
+      "last_successful_search_at": "2026-09-21T18:48:47.110109+00:00"
     },
     "otakar-foltyn": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-21T13:18:54.315972+00:00"
+      "last_successful_search_at": "2026-09-21T18:48:47.110109+00:00"
     },
     "petros-michopulos": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-21T13:18:54.315972+00:00"
+      "last_successful_search_at": "2026-09-21T18:48:47.110109+00:00"
     },
     "stepan-krecek": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-21T13:18:54.315972+00:00"
+      "last_successful_search_at": "2026-09-21T18:48:47.110109+00:00"
     }
   },
   "version": 1
