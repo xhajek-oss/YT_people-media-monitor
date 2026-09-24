@@ -114,3 +114,19 @@ people:
       uncertain_min_score: 1
     spotify:
       enabled: true
+
+  - id: martin-pecina-typograf
+    enabled: true
+    name: "Martin Pecina"
+    aliases: ["Martin Pecina"]
+    youtube:
+      queries: ["Martin Pecina MasterChef", "Martin Pecina typograf", "Martin Pecina kuchař", "Martin Pecina grafik"]
+      exclude_channel_ids: []
+    identity:
+      mode: strict
+      positive_terms: ["masterchef", "kuchař", "kuchar", "vaření", "vareni", "gastronomie", "typograf", "typografie", "grafik", "grafický design", "graficky design"]
+      negative_terms: ["politik", "ministr vnitra", "ministerstvo vnitra", "čssd", "cssd", "úohs", "uohs", "vláda", "vlada", "jan fischer", "jiří rusnok", "jiri rusnok"]
+      min_score: 6
+      uncertain_min_score: 2
+    spotify:
+      enabled: true
