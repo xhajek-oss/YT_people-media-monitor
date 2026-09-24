@@ -69,6 +69,15 @@
       "reason": "too_short",
       "status": "rejected"
     },
+    "youtube:R-lgq1I1tb0": {
+      "duration_seconds": 27,
+      "first_seen_at": "2026-09-24T16:34:38.203673+00:00",
+      "person_ids": [
+        "martin-pecina-typograf"
+      ],
+      "reason": "too_short",
+      "status": "rejected"
+    },
     "youtube:SqQkGWHOdhY": {
       "delivered_at": "2026-09-15T05:21:37.097672+00:00",
       "duration_seconds": 2112,
@@ -215,31 +224,35 @@
   "people": {
     "arpad-soltesz": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-24T11:59:57.271884+00:00"
+      "last_successful_search_at": "2026-09-24T16:34:38.203673+00:00"
     },
     "david-svoboda": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-24T11:59:57.271884+00:00"
+      "last_successful_search_at": "2026-09-24T16:34:38.203673+00:00"
+    },
+    "martin-pecina-typograf": {
+      "initialized": true,
+      "last_successful_search_at": "2026-09-24T16:34:38.203673+00:00"
     },
     "mirek-topolanek": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-24T11:59:57.271884+00:00"
+      "last_successful_search_at": "2026-09-24T16:34:38.203673+00:00"
     },
     "mojmir-hampl": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-24T11:59:57.271884+00:00"
+      "last_successful_search_at": "2026-09-24T16:34:38.203673+00:00"
     },
     "otakar-foltyn": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-24T11:59:57.271884+00:00"
+      "last_successful_search_at": "2026-09-24T16:34:38.203673+00:00"
     },
     "petros-michopulos": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-24T11:59:57.271884+00:00"
+      "last_successful_search_at": "2026-09-24T16:34:38.203673+00:00"
     },
     "stepan-krecek": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-24T11:59:57.271884+00:00"
+      "last_successful_search_at": "2026-09-24T16:34:38.203673+00:00"
     }
   },
   "version": 1
