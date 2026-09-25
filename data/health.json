@@ -1,44 +1,44 @@
 {
-  "last_run_at": "2026-09-25T17:05:46.130281+00:00",
+  "last_run_at": "2026-09-25T20:26:44.721653+00:00",
   "overall": "healthy",
   "people": {
     "arpad-soltesz": {
-      "last_search_at": "2026-09-25T17:05:46.130303+00:00",
-      "raw_results": 1,
+      "last_search_at": "2026-09-25T20:26:44.721675+00:00",
+      "raw_results": 0,
       "status": "healthy"
     },
     "david-svoboda": {
-      "last_search_at": "2026-09-25T17:05:46.130303+00:00",
+      "last_search_at": "2026-09-25T20:26:44.721675+00:00",
       "raw_results": 0,
       "status": "healthy"
     },
     "martin-pecina-typograf": {
-      "last_search_at": "2026-09-25T17:05:46.130303+00:00",
+      "last_search_at": "2026-09-25T20:26:44.721675+00:00",
       "raw_results": 0,
       "status": "healthy"
     },
     "mirek-topolanek": {
-      "last_search_at": "2026-09-25T17:05:46.130303+00:00",
-      "raw_results": 0,
+      "last_search_at": "2026-09-25T20:26:44.721675+00:00",
+      "raw_results": 1,
       "status": "healthy"
     },
     "mojmir-hampl": {
-      "last_search_at": "2026-09-25T17:05:46.130303+00:00",
+      "last_search_at": "2026-09-25T20:26:44.721675+00:00",
       "raw_results": 0,
       "status": "healthy"
     },
     "otakar-foltyn": {
-      "last_search_at": "2026-09-25T17:05:46.130303+00:00",
+      "last_search_at": "2026-09-25T20:26:44.721675+00:00",
       "raw_results": 0,
       "status": "healthy"
     },
     "petros-michopulos": {
-      "last_search_at": "2026-09-25T17:05:46.130303+00:00",
+      "last_search_at": "2026-09-25T20:26:44.721675+00:00",
       "raw_results": 0,
       "status": "healthy"
     },
     "stepan-krecek": {
-      "last_search_at": "2026-09-25T17:05:46.130303+00:00",
+      "last_search_at": "2026-09-25T20:26:44.721675+00:00",
       "raw_results": 0,
       "status": "healthy"
     }
@@ -46,7 +46,7 @@
   "services": {
     "spotify": {
       "message": "",
-      "status": "unchecked"
+      "status": "healthy"
     },
     "state": {
       "message": "",
@@ -54,7 +54,7 @@
     },
     "telegram": {
       "message": "",
-      "status": "unchecked"
+      "status": "healthy"
     },
     "youtube": {
       "message": "",

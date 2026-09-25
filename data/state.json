@@ -125,6 +125,18 @@
       "status": "delivered",
       "youtube_url": "https://www.youtube.com/watch?v=W6JH8lxRGqs"
     },
+    "youtube:YTfDEnHgal4": {
+      "delivered_at": "2026-09-25T20:26:48.299429+00:00",
+      "duration_seconds": 2929,
+      "first_seen_at": "2026-09-25T20:26:44.721675+00:00",
+      "person_ids": [
+        "mirek-topolanek"
+      ],
+      "selected_source": "youtube",
+      "selected_url": "https://www.youtube.com/watch?v=YTfDEnHgal4",
+      "status": "delivered",
+      "youtube_url": "https://www.youtube.com/watch?v=YTfDEnHgal4"
+    },
     "youtube:hcj8tDBbRvc": {
       "delivered_at": "2026-09-14T13:58:26.389249+00:00",
       "duration_seconds": 1536,
@@ -247,35 +259,35 @@
   "people": {
     "arpad-soltesz": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-25T17:05:46.130303+00:00"
+      "last_successful_search_at": "2026-09-25T20:26:44.721675+00:00"
     },
     "david-svoboda": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-25T17:05:46.130303+00:00"
+      "last_successful_search_at": "2026-09-25T20:26:44.721675+00:00"
     },
     "martin-pecina-typograf": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-25T17:05:46.130303+00:00"
+      "last_successful_search_at": "2026-09-25T20:26:44.721675+00:00"
     },
     "mirek-topolanek": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-25T17:05:46.130303+00:00"
+      "last_successful_search_at": "2026-09-25T20:26:44.721675+00:00"
     },
     "mojmir-hampl": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-25T17:05:46.130303+00:00"
+      "last_successful_search_at": "2026-09-25T20:26:44.721675+00:00"
     },
     "otakar-foltyn": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-25T17:05:46.130303+00:00"
+      "last_successful_search_at": "2026-09-25T20:26:44.721675+00:00"
     },
     "petros-michopulos": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-25T17:05:46.130303+00:00"
+      "last_successful_search_at": "2026-09-25T20:26:44.721675+00:00"
     },
     "stepan-krecek": {
       "initialized": true,
-      "last_successful_search_at": "2026-09-25T17:05:46.130303+00:00"
+      "last_successful_search_at": "2026-09-25T20:26:44.721675+00:00"
     }
   },
   "version": 1
