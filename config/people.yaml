@@ -90,6 +90,7 @@ people:
     youtube:
       queries: ["Mirek Topolánek", "Miroslav Topolánek"]
       exclude_channel_ids: []
+      exclude_channel_handles: ["@infocz_official"]
     identity:
       mode: normal
       positive_terms: ["politika", "expremiér", "premiér", "ods", "energetika", "ekonomika", "rozhovor", "podcast"]
