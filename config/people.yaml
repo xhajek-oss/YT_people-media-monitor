@@ -131,3 +131,19 @@ people:
       uncertain_min_score: 2
     spotify:
       enabled: true
+
+  - id: petr-necas
+    enabled: true
+    name: "Petr Nečas"
+    aliases: ["Petr Nečas", "Petr Necas"]
+    youtube:
+      queries: ["Petr Nečas", "Petr Necas"]
+      exclude_channel_ids: []
+    identity:
+      mode: normal
+      positive_terms: ["politika", "politik", "premiér", "premier", "expremiér", "expremier", "bývalý premiér", "ods", "vláda", "vlada", "ministr", "předseda vlády", "predseda vlady", "rozhovor", "podcast"]
+      negative_terms: []
+      min_score: 3
+      uncertain_min_score: 1
+    spotify:
+      enabled: true
